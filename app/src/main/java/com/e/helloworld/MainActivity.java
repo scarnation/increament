@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        
+
         fab.setOnClickListener(
                 view -> {Snackbar.make(view, "Increased by 1", Snackbar.LENGTH_LONG)
                 .setAction("Action",null).show();
